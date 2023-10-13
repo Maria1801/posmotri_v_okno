@@ -142,7 +142,7 @@ ol {
 }
 
 .content__video-card-title {
-  font-family: Oswald;
+  font-family: "Oswald", sans-serif;
   font-size: 30px;
   line-height: 100%;
   text-transform: uppercase;
@@ -281,7 +281,11 @@ input:checked ~ .search-form__pseudo-checkbox:after {
 }
 
 .content__card-link:active {
-  background-color: #545050; /*цвет соответствует макету*/
+  background-color: #545050;
+}
+
+.content__card-link_current {
+  background-color: #545050;
 }
 
 .content__card-link:hover {
@@ -292,7 +296,7 @@ input:checked ~ .search-form__pseudo-checkbox:after {
   text-decoration: none;
 }
 
-.buttom:focus {
+.button:focus {
   outline: none;
 }
 
